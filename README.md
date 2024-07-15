@@ -27,5 +27,5 @@ Approach :
 
 Assumptions:
 1) Alerts are monitored in a 2-hr time window from 8 to 10 am on 12/07/2024.
-2) Since the model wont use tags irrelevant for correlation , the those tags are filled with random strings.
+2) Since the model wont use tags irrelevant for correlation , those tags are filled with random strings.
 3) Skeleton of JSON 1 was altered to remove repeating tags.
