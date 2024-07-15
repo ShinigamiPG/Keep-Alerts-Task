@@ -6,9 +6,13 @@ The assignment description is intentionally vague to give you decision-making fr
 
 Files Overview : 
 Alert_prom.json - JSON 1
+
 Alert_home.json - JSON 2
+
 Data.py - Contains generated/curated data required for the task
+
 Main.py - Code for the task
+
 Generated Alerts.zip - A set of 1000 generated alerts (Output of the task)
 
 Approach : 
