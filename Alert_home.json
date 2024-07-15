@@ -1,0 +1,5 @@
+{
+   "name":"Rabbit Analytics Service Alert",
+   "severity":"cr",
+   "message":"Rabbit Analytics Service is experiencing an outage. Name: Rabbit, severity: CRITICAL"
+}
