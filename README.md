@@ -17,6 +17,7 @@ Approach :
 3) From the skeleton of the JSON's, generate new ones using the obtained data.
 
    Relevant tags for JSON1 - ['name', 'env', 'region', 'severity', 'instance',  'startsAt',   'endsAt', 'description', 'fingerprint']
+   
    Relevant tags for JSON2 - ['name', 'severity', 'message']
 
 Assumptions:
