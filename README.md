@@ -1,5 +1,33 @@
 # Keep-Alerts-Task
-Coding Task Description : For a practical coding task, let’s say we need more data for a training dataset. We decide to create a service based on an artificial dataset. Using the attached JSONs, design and execute the solution to generate the dataset of one thousand correlated alerts. Feel free to use third-party datasets and models.
+# Design Task:
+
+Description :
+Alert is a free-form JSON coming from Providers. Each Provider has its own Alert structure.
+
+For instance, the provider Prometheus may generate alerts , while a customer’s homegrown alert system may present a different structure.
+
+Build a detailed architecture description (AI part) for an alert correlation micro-service. Its purpose is to correlate alerts to existing “Incidents” or create new Incidents. 
+
+The service’s input:
+
+- List (and some description) of “services” (system components),
+- Information about past incidents,
+- New alerts,
+- Past (already correlated alerts),
+- Ongoing incidents.
+
+Service output:
+
+- Should alerts be correlated to an existing Incident(s)?
+    - If yes:
+        - What’s the Incident correlate them to?
+    - If not:
+        - Should the new Incident be initiated? Why was it initiated? What’s this Incident about?
+
+# Coding Task:
+
+
+Description : For a practical coding task, let’s say we need more data for a training dataset. We decide to create a service based on an artificial dataset. Using the attached JSONs, design and execute the solution to generate the dataset of one thousand correlated alerts. Feel free to use third-party datasets and models.
 
 The assignment description is intentionally vague to give you decision-making freedom, similar to what we expect in the actual work routine for this role. While designing the system, please make assumptions about missing requirements and be ready to share those assumptions explicitly.
 
