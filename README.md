@@ -1,7 +1,8 @@
 # Keep-Alerts-Task
-# Design Task:
+# Design Task: 
+time used - 20 min
 
-**Description :**
+**Description :** 
 Alert is a free-form JSON coming from Providers. Each Provider has its own Alert structure.
 
 For instance, the provider Prometheus may generate alerts , while a customer’s homegrown alert system may present a different structure.
@@ -38,7 +39,7 @@ RAG Approach with LLM :
 
 
 # Coding Task:
-
+time used - 3hrs
 
 **Description : **For a practical coding task, let’s say we need more data for a training dataset. We decide to create a service based on an artificial dataset. Using the attached JSONs, design and execute the solution to generate the dataset of one thousand correlated alerts. Feel free to use third-party datasets and models.
 
