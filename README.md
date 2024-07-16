@@ -39,7 +39,7 @@ RAG Approach with LLM :
 
 
 # Coding Task:
-time used - 3hrs
+
 
 **Description : **For a practical coding task, let’s say we need more data for a training dataset. We decide to create a service based on an artificial dataset. Using the attached JSONs, design and execute the solution to generate the dataset of one thousand correlated alerts. Feel free to use third-party datasets and models.
 
