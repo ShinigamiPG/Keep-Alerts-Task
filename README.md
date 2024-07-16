@@ -23,6 +23,18 @@ Service output:
         - What’s the Incident correlate them to?
     - If not:
         - Should the new Incident be initiated? Why was it initiated? What’s this Incident about?
+     
+Solution :
+I came up with this approach based on my knowledge from university courses and independent research.
+
+RAG Approach with LLM :
+
+1) JSON Alert as input.
+2) Create a vector database of the incident and alert history and index it according to their embeddings.
+3) For each incoming alert retrieve top 10 incident(s) from the DB which clear a similarity threshold. 
+4) Prompt an LLM like GPT the following - "Given the following alert: {alert_json}, and these related incidents: {incidents_json}, should this alert be grouped with an existing incident or should a new incident be created?"
+
+
 
 # Coding Task:
 
